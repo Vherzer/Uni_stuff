@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script>
+      /*How to basically create website with javascript*/
+      var body = document.getElementsByTagName('body') [0];
+
+      var img = document.createElement('img');
+      img.src = "http://lorempixel.com/800/400";
+
+      body.appendChild(img);
+
+      var text = document.createTextNode("here is some text")
+      var para = document.createElement("p");
+
+      para.appendChild(text);
+      para.appendChild(para);
+    </script>
+  </body>
+</html>

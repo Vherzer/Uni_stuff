@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <!--Javascript for video two!-->
+    <header id="my_header">
+      <p>some text</p>
+    </header>
+    <script src="myscript.js"></script>
+    <div class="red" id="main_box">
+      <h1>Heyyyyyyy hover over me</h1>
+    </div>
+    <!--How to do a form in HTML-->
+    <form class="" action="index.html" method="post">
+      <div >
+        <label for="text"> Enter some text:
+          <input type="text">
+        </label>
+      </div>
+      <div >
+        <label for="text"> Enter a longer piece of text:<br>
+          <textarea rows="10" cols="70">
+            Enter answer:
+          </textarea>
+        </label>
+      </div>
+      <div>
+        <label for="lang"> 1, 2 or 3?
+          <select>
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label for="lang"> pick a country
+          <select>
+            <optgroup label="Europe">
+              <option value="">Austria</option>
+              <option value="">Switzerland</option>
+              <option value="">UK</option>
+            </optgroup>
+            <optgroup label="Asia">
+              <option value="">China</option>
+              <option value="">Japan</option>
+              <option value="">Thailand</option>
+            </optgroup>
+          </select>
+        </label>
+      </div>
+      <input type="email">
+      <input type="password">
+    </form>
+    <style>
+      input:invalid{
+        border:1px solid red;
+      }
+      input:valid{
+        border:1px solid black;
+      }
+      .red{
+        color: red;
+      }
+      .green{
+        color:green;
+      }
+    </style>
+  </body>
+</html>
